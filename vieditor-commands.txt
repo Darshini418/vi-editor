@@ -1,0 +1,65 @@
+*i:take you to insert mode
+*esc:terminate your insert mode &will go to command mode
+*u:undo your last change
+*U:undo all changes to the entire line
+*o:open a new line
+*dd:delete the current line where the cursor is present
+*sdd:delete 3lines
+*D:delete contents of line after the cursor
+*c:delete contents of a line after the cursor and insert new text press esc key to end the insertion
+*dw:delete a word
+*4dw:delete 4words
+*cw:change word
+*x:delete character at the cursor
+*r:replace character
+
+
+FLAGS:
+*****
+source side archive/compression file creation:
+-c  Create a new archive.ta
+-v  Verbose output (display all the contents-archive)
+-f file.tar.gz-Use archive file as name
+-z Apply this compression technique (gzip) .tar.gz
+-j Apply this compreesion technique(bzip2) .tar.bz2
+
+
+DESTINATION SIDE:
+****************
+  Decompress/extract all contents:
+-x Extract of all files from the archive
+-t Display list all the contents in an archive
+-v verbose output
+-f file.tar.gz Use archive file name
+--exclude:Exclude files matching pattern/DIR/FILENAME
+           -j
+           -z
+
+
+CHMOD USING NUMERIC CHARACTERS:
+******************************
+Number status   Represents
+0  no permission  ---
+1 Execute permission  --x
+2 write permission    -w-
+3 execute and write   -wx
+4 Read permission     r--
+5 Read,Execute        r-x
+6 Read,Write          rw-
+7 Read,Write and Execute rwx
+ 
+
+VI EDITOR:
+*********
+1.The default editor that comes with the UNIX operating system is called vi(visual editor)
+2.Using vi editor, we can edit an existing file or create a new file from scratch.
+3.It is used to just read a text file
+4.Command Mode:When vi starts up, it is in command mode
+
+
+THE 3 MODES OF VI ARE:
+*********************
+1.Command mode:you can open or create files
+2.Entry mode. ..
+3.Last-line mode:when in command mode, type a ?:? to go into the last-line mode
+      
